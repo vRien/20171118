@@ -1,6 +1,7 @@
 #pragma once
 #include "SDL.h"
 #include "TextureManager.h"
+#include "Player.h"
 
 class Game
 {
@@ -20,4 +21,6 @@ private:
 	SDL_Renderer* m_pRenderer;
 	bool m_bRunning;
 	int m_currentFrame;
+	GameObject m_go;
+	Player m_player;
 };
