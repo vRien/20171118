@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 	const int DELAY_TIME = 1000.0f / FPS;
 
 	std::cout << "game init attempt...\n";
-	if (TheGame::Instance()->init("PP12.Vector2D", 100, 100, 640, 480, false))
+	if (TheGame::Instance()->init("PP13.KInputHandler", 100, 100, 640, 480, false))
 	{
 		std::cout << "game init success!\n";
 		Uint32 frameStart, frameTime;
