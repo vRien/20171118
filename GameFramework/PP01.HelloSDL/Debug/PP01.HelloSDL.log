@@ -1,8 +1,8 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(PP01.HelloSDL.vcxproj, PP05.AnimatingSprite.vcxproj, PP06.ImageSprite.vcxproj, PP07.TextureManager.vcxproj, PP08.SingletonTM.vcxproj, PP09.Inheritance.vcxproj, PP10.Polymorphism.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  Enemy.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(PP01.HelloSDL.vcxproj, PP05.AnimatingSprite.vcxproj, PP06.ImageSprite.vcxproj, PP07.TextureManager.vcxproj, PP08.SingletonTM.vcxproj, PP09.Inheritance.vcxproj, PP10.Polymorphism.vcxproj, PP11.AbstractClass.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   Game.cpp
-  Player.cpp
   SDLGameObject.cpp
+c:\users\kuda3\documents\20171118\gameframework\pp01.hellosdl\sdlgameobject.cpp(5): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   main.cpp
+c:\users\kuda3\documents\20171118\gameframework\pp01.hellosdl\main.cpp(7): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
-  PP01.HelloSDL.vcxproj -> C:\Users\kuda3\Documents\20171118\GameFramework\Debug\PP11.AbstractClass.exe
+  PP01.HelloSDL.vcxproj -> C:\Users\kuda3\Documents\20171118\GameFramework\Debug\PP12.Vector2D.exe
