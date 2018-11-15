@@ -2,6 +2,8 @@
 #include "SDL.h"
 #include "TextureManager.h"
 #include "Player.h"
+#include "Enemy.h"
+#include <vector>
 
 class Game
 {
@@ -20,7 +22,12 @@ private:
 	SDL_Window * m_pWindow;
 	SDL_Renderer* m_pRenderer;
 	bool m_bRunning;
-	int m_currentFrame;
-	GameObject m_go;
-	Player m_player;
+	int m_currentFrame; 
+	
+	std::vector<GameObject*> m_gameObjects;
+
+	GameObject* m_go;
+	GameObject* m_player;
+	GameObject* m_enemy;
+
 };
